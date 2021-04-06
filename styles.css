@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+} 
+
 body {
     background-color: #f9fafc;
     font-family: "Open Sans", cursive;
@@ -13,15 +17,16 @@ header h1 {
     color: #69696a;
     text-decoration: none;
     list-style-type: none;
+    padding-left: 0;
 }
 
 .nav_link {
     color: #69696a;
     text-decoration: none;
+    margin: 0;
 }
 
-/* change buttons to anchor tag with a class, then apply these styles to class */
-.button1 {
+.button1 a {
     background-color: #000;
     border: none;
     border-radius: 12px;
@@ -45,7 +50,7 @@ h2 {
     padding-left: 10px;
 }
 
-.button2 {
+.button2 a {
     background-color: #000;
     border: none;
     border-radius: 12px;
@@ -77,6 +82,7 @@ h3 {
 .footer_link ul {
     text-decoration: none;
     list-style-type: none;
+    padding-left: 0;
     display: flex;
     justify-content: right;
 }
@@ -84,4 +90,53 @@ h3 {
 .footer_link a {
     text-decoration: none;
     color: #69696a;
+    padding: 8px;
 }
+
+@media screen and (min-width: 768px) {
+    .info {
+        width: 50%;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    a.nav_link {
+        padding: 4px;
+    }
+    .button1 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/*media query goes here
+@media screen and (min-width: 768px;) {
+    changes to elements goes in here
+} */
+
+/* circles are empty divs in a section with colored background and opacity level
+border radius 50%, position them with absolute position */
+
+/* .circle {
+    background-color
+    opacity
+    border-radius
+    position absolute
+}
+.circle1 {
+    width:
+    height:
+    top: 30px etc.
+}
+
+display: none
+or only put div styles inside media query because they'll take up 0x0 pixels by default
+z-index ?? */
