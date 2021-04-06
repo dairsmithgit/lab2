@@ -20,6 +20,7 @@ header h1 {
     text-decoration: none;
 }
 
+/* change buttons to anchor tag with a class, then apply these styles to class */
 .button1 {
     background-color: #000;
     border: none;
