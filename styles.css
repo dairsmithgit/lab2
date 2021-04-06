@@ -1,10 +1,12 @@
 body {
     background-color: #f9fafc;
     font-family: "Open Sans", cursive;
+    margin-bottom: 30px;
 }
 
-header {
+header h1 {
     color: #000;
+    font-size: 16px;
 }
 
 .navigation ul {
@@ -28,12 +30,12 @@ header {
     text-decoration: none;
     display: block;
     width: 100%;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 3px 12px;
 }
 
 h2 {
     color: #000;
+    font-size: 36px;
 }
 
 .info {
@@ -52,15 +54,19 @@ h2 {
     text-decoration: none;
     display: block;
     width: 100%;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 3px 12px;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: rgba(247, 193, 162, 0.7);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
 }
 
 h3 {
