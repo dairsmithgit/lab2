@@ -25,6 +25,7 @@ header {
     text-align: center;
     text-decoration: none;
     display: block;
+    width: 100%;
 }
 
 h2 {
@@ -44,6 +45,13 @@ h2 {
     text-align: center;
     text-decoration: none;
     display: block;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 h3 {
@@ -53,6 +61,8 @@ h3 {
 .footer_link ul {
     text-decoration: none;
     list-style-type: none;
+    display: flex;
+    justify-content: right;
 }
 
 .footer_link a {
