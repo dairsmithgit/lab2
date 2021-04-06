@@ -1,0 +1,37 @@
+body {
+    background-color: #f9fafc;
+    font-family: "Open Sans", cursive;
+}
+
+header {
+    color: #000;
+}
+
+.navigation ul {
+    color: #69696a;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav_link {
+    color: #69696a;
+    text-decoration: none;
+}
+
+h2 {
+    color: #000;
+}
+
+h3 {
+    color: #000;
+}
+
+.footer_link ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer_link a {
+    text-decoration: none;
+    color: #69696a;
+}
